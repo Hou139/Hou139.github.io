@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>电子烟英语课程内容.md</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%E7%94%B5%E5%AD%90%E7%83%9F%E8%8B%B1%E8%AF%AD-100-%E7%AF%87">电子烟英语 100 篇</h1>
+<h3 id="background-information">Background information</h3>
+<h2 id="company-background-vapex-innovations">Company Background: VapeX Innovations</h2>
+<p>Establishment and Early Days:</p>
+<p>VapeX Innovations was established in 2020, born out of a vision to revolutionize the vaping industry with innovative, user-centric products. The founders, a group of tech-savvy entrepreneurs with a passion for vaping, identified a gap in the market for high-quality, eco-friendly, and cost-efficient vape solutions. Leveraging their expertise in technology and design, they set out to create a brand that would cater to both novice and seasoned vapers.</p>
+<p>Business Inception and Growth:</p>
+<p>Starting as a small startup, VapeX Innovations initially focused on extensive research and development to ensure their products met the highest standards of quality and performance. The launch of their first product line received positive feedback, setting the stage for rapid growth. By leveraging online platforms and social media, the company quickly built a loyal customer base. Their commitment to customer satisfaction and continuous innovation helped them expand their reach, eventually establishing a strong presence in the market.</p>
+<p>Market Position and Strategy:</p>
+<p>Today, VapeX Innovations is positioned as a leading player in the vaping industry, known for its cutting-edge products and sustainable practices. The company’s market strategy revolves around three core pillars: innovation, sustainability, and customer-centricity. By constantly pushing the boundaries of technology and design, they aim to stay ahead of market trends and consumer demands. Their eco-friendly approach not only appeals to environmentally conscious consumers but also sets them apart from competitors.</p>
+<p>Future Strategy:</p>
+<p>In the next few years, VapeX Innovations plans to further solidify its market position by expanding its product portfolio and entering new markets. They aim to introduce advanced vaping technologies and diversify their offerings to include a wider range of flavors and accessories. The company also plans to enhance its digital presence and improve customer engagement through personalized marketing and robust customer support.</p>
+<p>Product Assortment:</p>
+<p>VapeX Innovations offers a diverse product assortment designed to meet the varying needs of vapers. Their lineup includes sleek, portable vape pens, high-capacity mods, and a range of flavored e-liquids. Each product is crafted with precision, ensuring superior performance and user satisfaction. The introduction of the X3 model, featuring long-lasting battery life and eco-friendly components, exemplifies their commitment to innovation and sustainability.</p>
+<p>Core Competence:</p>
+<p>The most important competence of VapeX Innovations lies in its ability to blend technology with user experience. Their R&amp;D team continually explores new technologies to enhance product performance, while their design team ensures that each product is both aesthetically pleasing and ergonomically sound. This combination of technical prowess and design excellence positions them as a frontrunner in the vaping industry, ready to meet the evolving needs of their customers.</p>
+<p>In summary, VapeX Innovations stands as a beacon of innovation and sustainability in the vaping industry, driven by a mission to provide high-quality, user-friendly, and eco-conscious vaping solutions. Their forward-thinking approach and dedication to excellence ensure they remain a preferred choice for vapers worldwide.</p>
+<h3 id="simulation-1-product-presentation-at-a-vape-fair">Simulation 1: Product Presentation at a Vape Fair</h3>
+<p>Scenario: A sales representative from the vape company is presenting a new product to a potential customer at a vape fair.</p>
+<iframe src="https://share.synthesia.io/61fd9885-364d-4454-aa9b-2e8f52fd050b" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+<blockquote>
+<p>Characters:</p>
+<p>•	Sales Representative (S)
+•	Visitor (V)</p>
+</blockquote>
+<p>Setting: A booth at a vape fair, with a display of various vape products.</p>
+<h3 id="transcript">Transcript</h3>
+<p>S: Hello! Welcome to our booth. I’m Kevin . How can I assist you today?</p>
+<p>V: Hi, I’m Kathy. I’m looking for a new vape device. Can you tell me about your latest product?</p>
+<p>S: Of course! Let me introduce you to our newest model, the VapeX Pro. It’s designed with the latest technology to give you the best vaping experience. It has a sleek design, a powerful battery, and customizable settings.</p>
+<p>V: That sounds interesting. What are the key features of the VapeX Pro?</p>
+<p>S: The VapeX Pro features a 3000mAh battery, which provides long-lasting power for all-day vaping. It also has an adjustable wattage range from 5W to 100W, allowing you to customize your vaping experience. The device includes a 2ml refillable tank and a top-fill system for easy refilling. Plus, it has a temperature control mode for a smoother vape.</p>
+<p>V: How about the safety features? I’ve heard some vape devices can be dangerous.</p>
+<p>S: Safety is our top priority. The VapeX Pro is equipped with multiple safety features, including overcharge protection, short-circuit protection, and overheat protection. It also has a child-lock system to prevent accidental use by children.</p>
+<p>V: That’s good to hear. Can you tell me more about the materials used? I’m concerned about the quality and durability.</p>
+<p>S: Absolutely. The VapeX Pro is made from high-grade stainless steel and pyrex glass. These materials ensure durability and longevity. The coils are made from high-quality cotton and Kanthal wire, providing a clean and pure taste.</p>
+<p>V: I like the sound of that. How does the VapeX Pro compare to other devices on the market?</p>
+<p>S: The VapeX Pro stands out due to its combination of power, customization, and safety. While many devices offer one or two of these features, the VapeX Pro brings them all together. It’s designed for both beginners and experienced vapers, making it versatile and user-friendly.</p>
+<p>V: What about the flavors? Do you have any recommendations?</p>
+<p>S: We have a wide range of e-liquid flavors to choose from. Some of our most popular include Tropical Mango, Cool Mint, and Classic Tobacco. Each flavor is crafted with high-quality ingredients to ensure a rich and satisfying taste.</p>
+<p>V: That sounds great. I’ve had issues with battery life in the past. How does the VapeX Pro perform in that regard?</p>
+<p>S: The 3000mAh battery in the VapeX Pro is one of the most powerful in its class. It’s designed to last all day with moderate to heavy use. Plus, it charges quickly with a USB-C cable, so you can get back to vaping in no time.</p>
+<p>V: Can you show me how to refill the tank?</p>
+<p>S: Sure! It’s very simple. First, unscrew the top cap to access the fill port. Then, insert the nozzle of your e-liquid bottle into the port and squeeze gently until the tank is full. Be careful not to overfill. Finally, screw the top cap back on, and you’re ready to vape.</p>
+<p>V: Thanks for the demonstration. How much does the VapeX Pro cost?</p>
+<p>S: The VapeX Pro is priced at $79.99. We also offer a starter kit for $99.99, which includes the device, an extra coil, a USB-C charging cable, and a 30ml bottle of e-liquid.</p>
+<p>V: That’s reasonable. Do you offer any warranties?</p>
+<p>S: Yes, we do. The VapeX Pro comes with a one-year warranty that covers any manufacturing defects. Just keep your receipt or proof of purchase, and we’ll take care of any issues that arise.</p>
+<p>V: Excellent. I think I’m convinced. I’ll take the starter kit.</p>
+<p>S: Fantastic choice! I’ll get that ready for you. If you have any other questions or need further assistance, feel free to reach out. Enjoy your new VapeX Pro!</p>
+<p>V: Thank you so much for your help.</p>
+<p>S: You’re welcome! Have a great day and enjoy the fair!</p>
+<p>This dialogue covers various aspects a consumer might be concerned about, such as product features, safety, materials, battery life, and price, providing a comprehensive and realistic simulation for sales training.</p>
+<h2 id="key-words">key words:</h2>
+<ol>
+<li><strong>Battery</strong>, [ˈbætəri], 电池, &quot;The VapeX Pro features a 3000mAh battery for long-lasting power.&quot;</li>
+<li><strong>Wattage</strong>, [ˈwɑːtɪdʒ], 瓦数, &quot;The device has an adjustable wattage range from 5W to 100W.&quot;</li>
+<li><strong>Refillable Tank</strong>, [ˌriːˈfɪləbl tæŋk], 可重复填充的油箱, &quot;The VapeX Pro includes a 2ml refillable tank.&quot;</li>
+<li><strong>Top-fill System</strong>, [tɑːp fɪl ˈsɪstəm], 顶部填充系统, &quot;The top-fill system makes refilling the tank easy.&quot;</li>
+<li><strong>Temperature Control Mode</strong>, [ˈtɛmprətʃər kənˈtroʊl moʊd], 温度控制模式, &quot;It has a temperature control mode for a smoother vape.&quot;</li>
+<li><strong>Safety Features</strong>, [ˈseɪfti ˈfiːtʃərz], 安全功能, &quot;Safety features include overcharge protection, short-circuit protection, and overheat protection.&quot;</li>
+<li><strong>Child-resistant</strong>, [tʃaɪld-rɪˈzɪstənt], 儿童防护, &quot;The VapeX Pro has child-resistant packaging to prevent accidental use.&quot;</li>
+<li><strong>Stainless Steel</strong>, [ˈsteɪnləs stiːl], 不锈钢, &quot;The device is made from high-grade stainless steel.&quot;</li>
+<li><strong>Pyrex Glass</strong>, [ˈpaɪrɛks ɡlæs], 耐热玻璃, &quot;The tank is made of Pyrex glass for durability.&quot;</li>
+<li><strong>Coils</strong>, [kɔɪlz], 线圈, &quot;The coils are made from high-quality cotton and Kanthal wire.&quot;</li>
+<li><strong>Kanthal Wire</strong>, [ˈkænθəl waɪr], 康泰尔线, &quot;Kanthal wire is used in the coils for a clean taste.&quot;</li>
+<li><strong>E-liquid</strong>, [ˈiː ˌlɪkwɪd], 电子烟油, &quot;We offer a wide range of e-liquid flavors, including Tropical Mango and Cool Mint.&quot;</li>
+<li><strong>Nicotine Levels</strong>, [ˈnɪkətiːn ˈlɛvəlz], 尼古丁含量, &quot;The packaging must list all ingredients, including nicotine levels.&quot;</li>
+<li><strong>USB-C Charging Cable</strong>, [ˌjuː ɛs ˈbiː siː ˈtʃɑːrdʒɪŋ ˈkeɪbl], USB-C 充电线, &quot;It charges quickly with a USB-C charging cable.&quot;</li>
+<li><strong>Starter Kit</strong>, [ˈstɑːrtər kɪt], 入门套件, &quot;The starter kit includes the device, an extra coil, a USB-C charging cable, and a 30ml bottle of e-liquid.&quot;</li>
+<li><strong>Warranty</strong>, [ˈwɔːrənti], 保修, &quot;The VapeX Pro comes with a one-year warranty that covers any manufacturing defects.&quot;</li>
+<li><strong>Sleek Design</strong>, [sliːk dɪˈzaɪn], 时尚设计, &quot;The VapeX Pro has a sleek design that is both stylish and functional.&quot;</li>
+<li><strong>All-day Vaping</strong>, [ɔːl-deɪ ˈveɪpɪŋ], 全天吸电子烟, &quot;The battery provides long-lasting power for all-day vaping.&quot;</li>
+<li><strong>Health Warnings</strong>, [hɛlθ ˈwɔːrnɪŋz], 健康警告, &quot;The packaging includes clear health warnings about the risks of vaping.&quot;</li>
+<li><strong>Customer Loyalty</strong>, [ˈkʌstəmər ˈlɔɪəlti], 客户忠诚度, &quot;A strong focus on safety and quality can enhance customer loyalty.&quot;</li>
+</ol>
+<h2 id="excise-simulation-1">Excise Simulation 1</h2>
+<h3 id="create-a-sales-pitch-based-on-given-product-information">Create a Sales Pitch based on given product information</h3>
+<p>Objective: Develop persuasive communication skills.
+Instructions:</p>
+<pre><code>1.	Write a 1-2 minute sales pitch for the VapeX Pro, incorporating key features and benefits.
+2.	Present their sales pitches to the class or others
+</code></pre>
+<p>Debrief:</p>
+<pre><code>•	Discuss what makes an effective sales pitch.
+•	Highlight strong points from various pitches.
+</code></pre>
+<p>Virtual company:  New Virtual Vape Company - “VapeX Innovations”</p>
+<blockquote>
+<p>Product: X3</p>
+</blockquote>
+<pre><code>Product Features:
+
+1.	Battery and Power:
+
+	•	Capacity: 1100mAh battery, lasting more than one day.
+
+	•	Power Output: 16W maximum output.
+
+	•	Charging: Type-C charging with DC 5V/1A.
+
+2.	Pod and Coil:
+
+	•	Capacity: 2ml pod capacity.
+
+	•	Resistance Options: 0.8Ω and 1.2Ω mesh pods.
+
+	•	COREX Smooth Technology: Ensures smoother taste and accurate flavor delivery.
+
+3.	Design and Usability:
+
+	•	Dimensions: Compact size (φ16.8mm × 119mm).
+
+	•	Weight: Ultra-lightweight at 36g.
+
+	•	User Experience: Soft silicone mouthpiece for comfort, tight draw for high satisfaction.
+
+	•	Operation: Simple liquid filling and magnetic pod insertion.
+
+4.	Eco and Cost Efficiency:
+
+	•	Eco-Friendly: Reduces cigarette packaging waste.
+
+	•	Economical: Significant cost savings with refillable and rechargeable pods.
+
+5.	Aesthetic Options:
+
+	•	Colors: Available in Night Black, Stellar Silver, Gunmetal Grey, Grape Purple, Tropics Orange, Misty Green, Sunset Beach, and Pink Lemon.
+
+
+Summary:
+The X3 by VapeX Innovations offers an all-day vaping experience with its powerful battery, sleek design, and eco-friendly features, making it a perfect choice for users seeking both performance and style.
+</code></pre>
+<p>Submit your presentation by sending the email to following email address. test@mail.com</p>
+
+</body>
+</html>
